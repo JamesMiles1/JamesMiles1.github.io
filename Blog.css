@@ -1,0 +1,51 @@
+:root {
+    background: #000;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    color: #FFF;
+    text-align: center;
+}
+aside {
+    background: white;
+    width: 150px;
+    height: 600px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    transform: translate(-70px);
+}
+a:visited {
+    color: gray;
+}
+a {
+    color: darkgray;
+    text-decoration: none;
+}
+li:hover {
+    background: blue;
+    color: #FFF;
+}
+.other {
+    transform: translate(200px, -600px)
+}
+progress[value]{
+    background: green;
+    -webkit-appearance: none;
+    appearance: none;
+ 
+   width: 250px;
+   height: 20px;
+}
+progress[value]::-webkit-progress-bar {
+    background-color: lightgreen;
+    border-radius: 2px;
+    box-shadow: 2px 0px 4px 5px rgba(0, 0, 0, .5)
+  }
+  h1 {
+      border: 8px dotted lightgreen;
+      border-radius: 20px 40px;
+  }
