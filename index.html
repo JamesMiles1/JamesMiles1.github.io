@@ -7,8 +7,10 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="Blog.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<i class='fa fa-address-card-o'></i>Name(Will never be displayed & just the Website can see this, Not anybody, else): <input type=text placeholder=Name ng-model=name>
     <aside>
         <ul>
             <li><a href="index.html">HOME</a></li>
@@ -20,7 +22,7 @@
     </aside>
     <div class="other">
         <h1>About Me</h1>
-            I am James, Very nice to meet you! I am a programmer, From WI, USA.
+            I am James, Very nice to meet you, {{name}}! I am a programmer, From WI, USA.
             I have been programming for about 6 to 7 months.
             When i take a break on Programming, I Will do, Hockey, Jiu-Jistsu, and more.
             I Study Every day. Programming has been my life, I use OS Microsoft, and computer, Acer, and Acer XFA240.
